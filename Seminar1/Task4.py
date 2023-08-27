@@ -18,7 +18,7 @@ for i in range(1, attempts + 1):
     feedback = input("Введите 'больше', 'меньше' или 'верно': ")
 
     if feedback == "верно":
-        print(f"Ура! Я угадал число {guess} за {i} попыток.")
+        print(f"Я угадал число {guess} за {i} попыток.")
     elif feedback == "больше":
         low = guess + 1
     elif feedback == "меньше":
