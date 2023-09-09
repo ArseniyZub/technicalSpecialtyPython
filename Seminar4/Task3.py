@@ -61,10 +61,10 @@ class BankAccount:
                 amount = int(input("Введите сумму для снятия: "))
                 self.withdraw(amount)
             elif choice == '3':
-                print("Спасибо за использование банкомата!")
+                print("Удачи!")
                 break
             else:
-                print("Неверный выбор. Пожалуйста, выберите 1, 2 или 3.")
+                print("Неверный выбор. Пожалуйста, выберите 1, 2, 3.")
 
 
 atm = BankAccount()
